@@ -1,0 +1,36 @@
+.tc{
+    text-align: center;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
+px-1{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+py-1{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+body{
+    background-color: rgb(247, 247, 247);
+}
+

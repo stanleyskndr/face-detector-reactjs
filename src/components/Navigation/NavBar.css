@@ -1,0 +1,14 @@
+
+.navbar{
+    padding: 0 5%;
+}
+
+.navbar-cta{
+    color: rgb(33, 132, 253);
+    font-weight: 500;
+}
+
+.navbar-cta:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}

@@ -1,0 +1,73 @@
+.image-input{
+    width: 60%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.image-input input{
+    width: 77%;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.image-input input:focus{
+    outline: solid 1px  rgb(80, 154, 250);
+}
+
+.image-input button{
+    width: 18%;
+    white-space: nowrap;
+    padding: 10px 17px;
+    color: white;
+    background-color: rgb(33, 132, 253);
+    border-radius: 7px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.image-input button:hover{
+    background-color: rgb(80, 154, 250);
+    cursor: pointer;
+}
+
+.image-output{
+    text-align: center;
+}
+
+.image-wrapper{
+    position: relative;
+    width: 60%;
+    height: auto;
+    margin: 30px auto;
+}
+
+.image-output img{
+    width: 100%;
+    height: auto;
+}
+
+.bounding-box{
+    position: absolute;
+    border: solid 4px rgb(16, 105, 215);
+    border-radius: 3px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.entries-count{
+    text-align: center;
+}
+
+.error-msg{
+    color: rgb(216, 4, 4);
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 600;
+}
