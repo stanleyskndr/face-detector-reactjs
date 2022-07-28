@@ -1,3 +1,10 @@
+# About this project:
+• User-friendly website that detect a face for every image input with Machine Learning API.\
+• Created as the final project for Web Developer Course by Zero to Mastery Academy.\
+• Creatively created a bounding box for detected face using coordinate data by Clarifai API.\
+• Built using ReactJS Javascript Framework, NodeJS Backend Server, PostgreSQL Database,
+and deployed on Heroku.\
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
