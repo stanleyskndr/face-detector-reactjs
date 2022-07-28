@@ -5,6 +5,8 @@
 • Built using ReactJS Javascript Framework, NodeJS Backend Server, PostgreSQL Database,
 and deployed on Heroku.\
 
+Live website: https://facefinder-stanl.herokuapp.com/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
